@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="thankyou" pageWidth="450" pageHeight="842" columnWidth="410" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b3fbb977-bdf3-4175-811f-eb0b68bb5aac">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="730" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="420" height="730" uuid="e009bb12-c74f-4d2e-aa4e-903d44560dfa"/>
+				<imageExpression><![CDATA["D:/hotel pics/jas/IMG-20220727-WA0167.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="30" y="670" width="169" height="20" uuid="84bef6d1-3ec4-415f-a782-e3afd0a851d2">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[29/1 Galle Road, Hikkaduwa.                                 ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="685" width="261" height="20" uuid="78fbf544-c297-4b63-a00a-eeb210f15fab">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Contact No: 011-2456785,076-4519642   ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="700" width="260" height="20" uuid="a56d5650-c013-4ba2-9e96-9c4d3b9ffd35">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email:GreenHotel@gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="500" width="279" height="20" uuid="bf1b36b0-a25c-416e-89ac-f31925f16649"/>
+				<textElement textAlignment="Center">
+					<font fontName="Bodoni MT Condensed" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Thank you for being valued customer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="520" width="279" height="20" uuid="cede706a-982d-439f-8312-58bddd0f4d09">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Bodoni MT Condensed" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Your support and trust in us are much appreciated]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="550" width="240" height="30" uuid="166368c9-60e8-4b89-8546-de6860fafaf9"/>
+				<textElement textAlignment="Center">
+					<font fontName="Bodoni MT Condensed" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Come again!! Have a great day!!]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="600" width="250" height="50" uuid="cca16690-f1d8-4897-a02e-b7fc0267633c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Agency FB" size="29" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Thank you!!]]></text>
+			</staticText>
+			<image>
+				<reportElement x="270" y="330" width="100" height="100" uuid="aa727db3-53ac-44fc-90a1-0f510590ac86"/>
+				<imageExpression><![CDATA["D:/hotel pics/logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+</jasperReport>
